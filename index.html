@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- small changes here -->
+
+<!-- officially edited by ya boi JDogg -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +16,24 @@
     <script src="./index.js" defer></script>
     <title>Bootstrap Forms</title>
 </head>
+
 <!-- small changes here -->
+
+<!-- Just added a comment :p -->
+
+<!-- Hi Alex, it's James! Who's your favorite Avenger? -->
+
+
 <body>
+    <style>
+        body {
+        color: #333;
+        background-color: #e8e1d9;
+        }
+    </style>
     <main class="container my-4 p-3 border rounded shadow text-center">
         <h3>Give me Your Data!</h3>
-        <form class="row needs-validation g-3 p-2" novalidate>
+        <form class="row needs-validation g-2 p-2" novalidate>
             <div class="form-floating col-12 col-md-6 pl-0">
                 <input type="text" class="form-control" id="firstname" name="firstname" placeholder="name@example.com"
                     required>
@@ -43,6 +60,14 @@
                 <div class="valid-feedback">Right on!</div>
                 <div class="invalid-feedback">Give me yo password bro!</div>
             </div>
+            <div class="form-floating col-12 pr-0">
+                <input type="text" class="form-control" id="ssn" name="ssn"
+                    placeholder="ssn" required>
+                <label for="ssn">SSN</label>
+                <div class="valid-feedback">Right on!</div>
+                <div class="invalid-feedback">Give me yo SSN bro!</div>
+            </div>
+
             <div class="col-12 form-control-inline my-3 d-flex justify-content-start">
                 <div>
                     <label for="language">Python</label>
@@ -59,6 +84,7 @@
             </div>
             <button type="submit" class="col-4 btn btn-outline-info text-info">Submit Data</button>
         </form>
+        <h2>Mary was here!!! :)</h2>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
